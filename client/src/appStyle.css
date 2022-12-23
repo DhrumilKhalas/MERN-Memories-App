@@ -1,0 +1,29 @@
+.BelowMainLeft{
+
+    /* flex:2; */
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+    width:auto;
+    
+} 
+.BelowMainRight{
+    flex:1
+}
+.BelowMain{
+    margin-top: 20px;
+    gap: 30px;
+    padding: 20px;
+}
+.poststitle{
+    text-align: center;
+    color:#003580;
+    font-weight:bolder;
+   
+} 
+.poststitleouter{
+    margin-top: 80px;
+}
+
+@media only screen and (max-width:299px){
+
+}

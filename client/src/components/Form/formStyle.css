@@ -1,0 +1,81 @@
+.formheading{
+    text-align: center;
+    color:#003580;
+}
+.forminputinhomepage{
+    margin-top: 15px;
+    
+
+}
+#forminputfile{
+    margin-top: 15px;
+} 
+@media only screen and (max-width:350px){
+    .formheading{
+        font-size: 30px;
+        margin-bottom: 30px;
+    }
+}
+@media only screen and (min-width:351px) and (max-width:500px){
+
+    .formheading{
+        font-size: 30px;
+        margin-bottom: 30px;
+    }
+    .formmain{
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+}
+@media only screen and (min-width:501px) and (max-width:850px){
+    .formheading{
+        font-size: 35px;
+        margin-bottom: 35px;
+    }
+    .formmain{
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+}
+@media only screen and (min-width:851px) and (max-width:1000px){
+
+    .formheading{
+        font-size: 35px;
+        margin-bottom: 35px;
+    }
+    .formmain{
+        width: 70%;
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+
+}
+@media only screen and (min-width:1001px) and (max-width:2000px){
+
+    .formheading{
+        font-size: 35px;
+        margin-bottom: 35px;
+    }
+    .formmain{
+        width: 70%;
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+
+}
+@media only screen and (min-width:2001px){
+
+    .formheading{
+        font-size: 35px;
+        margin-bottom: 35px;
+    }
+    .formmain{
+        width: 60%;
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+
+}

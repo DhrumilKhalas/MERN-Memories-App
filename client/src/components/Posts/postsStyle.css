@@ -1,0 +1,60 @@
+@media only screen and (min-width:351px) and (max-width:500px){
+
+    .mulpostcard{
+        width: 76%;
+        margin-left: 12%;
+        margin-right: 12%;
+       
+    }
+    
+
+}
+@media only screen and (min-width:501px) and (max-width:850px){
+
+    .mulpostcard{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        gap:9px;
+    }
+    .mulpostinner{
+        width: 49%;
+    }
+
+}
+@media only screen and (min-width:851px) and (max-width:1000px){
+    .mulpostcard{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        gap:16px;
+    }
+    .mulpostinner{
+        width: 32%;
+    }
+
+}
+@media only screen and (min-width:1001px){
+    .mulpostcard{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        gap:12px;
+        margin-top: 20px;
+    }
+    .mulpostinner{
+        width: 24%;
+    }
+}
+@media only screen and (min-width:2001px){
+    .mulpostcard{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        gap:22px;
+        margin-top: 20px;
+    }
+    .mulpostinner{
+        width: 19%;
+    }
+}

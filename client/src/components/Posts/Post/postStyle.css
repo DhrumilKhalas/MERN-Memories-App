@@ -1,0 +1,41 @@
+
+.postpostcard{
+    border:1px solid #ccc;
+    margin-top: 10px;
+    box-shadow: 5px 5px 5px #ccc;
+    position: relative;
+    margin-top: 15px;
+    
+}
+.postpostcard:hover{
+    box-shadow: 10px 10px 10px #ccc;
+}
+.momentfontsize{
+    font-size:12px;
+}
+.postcardtags{
+    margin-top: 20px;
+    color:black;
+    font-size: 14px;
+    font-weight: 500;
+}
+.postcardmessage{
+    margin-top: 30px;
+    font-size: 14px;
+}
+.hiconbtn{
+    
+  position: absolute;
+  top:5px;
+  right:5px;
+   
+    cursor: pointer;
+    transform: scale(1.5);
+}
+.hiconbtninner{
+    color:antiquewhite;
+}
+@media only screen and (min-width:351px) and (max-width:500){
+    
+
+}
